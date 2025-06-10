@@ -1,0 +1,16 @@
+To test your logout functionality:
+
+Login and get a token:
+POST /auth/login
+
+Test a protected endpoint (should work):
+GET /dashboard/admin
+Authorization: Bearer <your-token>
+
+Logout:
+POST /auth/logout  
+Authorization: Bearer <same-token>
+
+Test the protected endpoint again (should fail):
+GET /dashboard/admin
+Authorization: Bearer <same-token>

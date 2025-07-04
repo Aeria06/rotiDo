@@ -70,9 +70,14 @@ The platform provides role-based access with encrypted authorization for the fol
 ## 🏁 Getting Started
 
 ### Backend (Spring Boot)
-```bash
 cd rotido-backend
 ./mvnw spring-boot:run
+
+### Frontend (React)
+cd rotido-frontend
+npm install
+npm start
+
 **
 ![image](https://github.com/user-attachments/assets/e0ab52c0-a7c4-4845-9fc9-f1be2f2757f5)
 
